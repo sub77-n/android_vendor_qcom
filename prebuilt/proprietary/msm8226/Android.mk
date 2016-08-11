@@ -79,3 +79,6 @@ LOCAL_CERTIFICATE := PRESIGNED
 include $(BUILD_PREBUILT)
 
 endif
+
+PRODUCT_COPY_FILES += \
+    bin/adsprpcd:system/bin/adsprpcd \

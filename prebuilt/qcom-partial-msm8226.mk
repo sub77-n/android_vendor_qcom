@@ -39,10 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
     vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
-    lib/libqsap_sdk.so:system/lib/libqsap_sdk.so
-    
-PRODUCT_COPY_FILES += \
-    bin/adsprpcd:system/bin/adsprpcd \
+    lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
@@ -246,4 +243,8 @@ PRODUCT_COPY_FILES += \
     etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
+    etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+
+
+#PRODUCT_COPY_FILES += \
+#    bin/adsprpcd:system/bin/adsprpcd \
